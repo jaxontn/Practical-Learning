@@ -14,3 +14,10 @@ Comment with multiple lines
 // Printing error information to standard error
 // console.error('Something went wrong!');
 
+/*We operators for:
+    1. Booleans
+    2. numbers
+    3. bigints
+    5. string
+    6. comparison operators
+*/
