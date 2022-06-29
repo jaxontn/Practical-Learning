@@ -21,3 +21,46 @@ Comment with multiple lines
     5. string
     6. comparison operators
 */
+
+//ORDINARY FUNCTION DECLARATIONS--------
+
+//add1() has the parameters a and b
+function add1(a, b)
+{
+    return a + b;
+}
+
+//calling function add1()
+assert.equal(add1(5,2), 7);
+
+
+//ARROW FUNCTION EXPRESSIONS--------
+//arrow function expressions are used especially as arguments of function calls and method calls.
+const add2 = (a,b) => { return a + b};
+//calling function add2()
+assert.equal(add2(5,2), 7);
+
+//Equivalent to add2:
+const add3 = (a,b) => a + b;
+
+
+//PLAIN OBJECTS-----
+/*creating an object in JavaScript is actually quite different from Java.
+the didnt need to create a class? interesting...*/
+//but JavaScript still uses semicolon la ;
+
+//creating a plain object via an object literal.
+const obj = {
+    first: 'Jane',  //property
+    second: 'Doe',  //property
+    getFullName() { //property (method)
+        return this.first + ' ' + this.last;
+    },
+};
+
+//getting a property value
+assert.equal(obj.first, 'Jane');
+//setting a property value
+obj.first='Janey';
+//calling the method name
+assert.equal(obj.getFullName(), 'Janey Doe');
