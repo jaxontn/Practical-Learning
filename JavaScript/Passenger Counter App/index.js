@@ -15,3 +15,5 @@ function save() {
 }
 
 console.log("Let's count people on the subway!");
+//going to continue on this tmr.
+//must understand how to make the web app.
