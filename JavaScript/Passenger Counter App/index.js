@@ -1,5 +1,5 @@
 let count = 0
-let saveEl = document.getElementById("save-el")
+let saveEl = document.getElementById("save-el") //this is how to get the element aka button //
 let countEl = document.getElementById("count-el")
 
 function increment() {
@@ -9,7 +9,7 @@ function increment() {
 
 function save() {
     let countStr = count + " - "
-    saveEl.textContenttStr
+    saveEl.textContenttStr += countStr
     countEl.textContent = 0
     count = 0
 }
