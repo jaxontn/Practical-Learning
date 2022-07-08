@@ -1,0 +1,4 @@
+Just run the test.py
+
+I set videoCapture to 0
+and changed the file path to make it work
